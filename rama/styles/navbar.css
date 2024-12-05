@@ -1,0 +1,30 @@
+header {
+  width: 100%;
+  padding: 1rem 1.5rem;
+  border-bottom: 1px solid var(--primary-foreground);
+  color: var(--primary-foreground);
+  background-color: var(--primary);
+}
+
+header a {
+  color: var(--foreground);
+  font-weight: bold;
+  transition: 0.2s ease-in-out;
+}
+
+header a:hover {
+  color: var(--primary-foreground);
+}
+
+header nav {
+  max-width: 1020px;
+  margin-inline: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header ul {
+  display: flex;
+  gap: 0.5rem;
+}

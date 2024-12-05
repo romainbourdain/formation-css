@@ -1,0 +1,9 @@
+:root {
+  --page-max-width: 1020px;
+
+  --primary: #f4f0fd;
+  --primary-foreground: #6e56cf;
+
+  --background: #fdfcfe;
+  --foreground: #211f26;
+}
